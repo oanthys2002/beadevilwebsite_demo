@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeAdevil Office</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100087445410570">Facebook</a></li>
+                    <li><a href="">Instragram</a></li>
+                    <li><a href="https://www.youtube.com/@DreamworksLiveChannel">Youtube</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!-------- Contact Us ----->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15494.667236345771!2d100.4463202!3d13.8590279!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29b3314a0b5df%3A0x703bbc0f9a3c8f91!2z4Lia4Lij4Li04Lip4Lix4LiXIOC4muC4tSDguK3guLAg4LmA4LiU4Lin4Li04LilIOC4iOC4s-C4geC4seC4lA!5e0!3m2!1sth!2sth!4v1686500887589!5m2!1sth!2sth" width="600" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house-chimney"></i>
+                <span>
+                    <h5>บริษัท บี อะ เดวิล จำกัด</h5>
+                    <p>ที่อยู่: หมู่บ้านพฤกษาทาวน์ 107/22 ถ. ราชพฤกษ์ ตำบล บางกร่าง อำเภอเมืองนนทบุรี นนทบุรี 11000</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>088888888</h5>
+                    <p>Monday to Saturday, 11AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>pawarit.phom@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email"name="email" placeholder="Enter Email address" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>BeAdevil Office Hope to see you work with us Thankyou</p>
+    <div class="icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-line"></i>
+    <i class="fa-brands fa-tiktok"></i>
+</div>
+<p>BeAdevil <i class="fa-regular fa-heart"></i> Thankyou</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JavaScropt For Toggle Menu-->
+<script>   
+
+var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+    navLinks.style.right ="0";
+}
+    function hideMenu (){
+    navLinks.style.right = "-200px";
+}
+</script>
+
+
+</body>
+</html>
