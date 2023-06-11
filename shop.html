@@ -4,85 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeAdevil Website Shopping</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BeAdevil Shop</title>
+    <!--css link-->
+    <link rel="stylesheet" href="styless.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+ rel="stylesheet">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+ integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" 
+ referrerpolicy="no-referrer" />
+
+ <link rel="stylesheet"
+ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-     <header>
-        <!--Nav-->
-        <div class="nav container">
-            <a href="home.html" class="logo">BeAdevil</a>
-            <!--Cart-Icon-->
-            <i class='bx bx-shopping-bag' id="cart-icon"></i>
-            </div> 
-     </header>
-                <!--Shop-->
-     <section class="shop container">
-        <h2 class="section-title">Shop Products</h2>
-                <!--Content-->
-    <div class="shop-content">
-                <!--Box1-->
-        <div class="product-box">
-            <img src="img/logo.jpg" alt="" class="product-img">
-            <h2 class="product-title">BeAdevil</h2>
-            <span class="price">$99</span>
-            <i class='bx bx-shopping-bag add-cart'></i>
-            </div>
-           <!--Box2-->
-        <div class="product-box">
-            <img src="img/logo.jpg" alt="" class="product-img">
-            <h2 class="product-title">BeAdevil</h2>
-            <span class="price">$99</span>
-            <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-            <!--Box3-->
-        <div class="product-box">
-            <img src="img/logo.jpg" alt="" class="product-img">
-            <h2 class="product-title">BeAdevil</h2>
-            <span class="price">$99</span>
-            <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-            <!--Box4-->
-        <div class="product-box">
-            <img src="img/logo.jpg" alt="" class="product-img">
-            <h2 class="product-title">BeAdevil</h2>
-            <span class="price">$99</span>
-            <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-            <!--Box5-->
-        <div class="product-box">
-            <img src="img/logo.jpg" alt="" class="product-img">
-            <h2 class="product-title">BeAdevil</h2>
-            <span class="price">$99</span>
-            <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-            <!--Box6-->
-        <div class="product-box">
-            <img src="img/logo.jpg" alt="" class="product-img">
-            <h2 class="product-title">BeAdevil</h2>
-            <span class="price">$99</span>
-            <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-            <!--Box6-->
-        <div class="product-box">
-            <img src="img/logo.jpg" alt="" class="product-img">
-            <h2 class="product-title">BeAdevil</h2>
-            <span class="price">$99</span>
-            <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-            <!--Box6-->
-        <div class="product-box">
-            <img src="img/logo.jpg" alt="" class="product-img">
-            <h2 class="product-title">BeAdevil</h2>
-            <span class="price">$99</span>
-            <i class='bx bx-shopping-bag add-cart'></i>
-        </div>
-            
-    </div>         
+    
+<header>
+    <a href="home.html" class="logo"><img src="img/background.jpg" alt=""></a>
+    <ul class="navmenu">
+    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Youtube</a></li>
+    <li><a href="">Instragram</a></li>
+    <li><a href="about.html">about us</a></li>
+    </ul>
+    <div class="nav-icon">
+    <a href="#"><i class='bx bx-search'></i></a>
+    <a href="#"><i class='bx bxs-user'></i></a>
+    <a href="#"><i class='bx bxs-cart'></i></a>
+    <div class="bx bx-menu" id="menu-icon"> </div>
+</div>
+</header>
+
+<section class="main-home">
+    <div class="main-text">
+        <h5>Product</h5>
+        <h1>Branding <br> T-Shirt & Cap</h1>
+        <p>Check out the products today at BeAdevil Website.
+        </p>
+
+        <a href="#" class="main-btn">Shop Now<i class='bx bx-right-arrow-alt'>    
+        </i></a>
     </div>
-    </section>
+    <div class="down-arrow">
+        <a href="#trending" class="down">
+            <i class='bx bx-down-arrow-alt' ></i></a>
+    </div>
+</section>
+
+<!--Product -->
+     <section class="trending-product" id="trending">
+     <div class="center-text">
+         <h2>Our Trending <span>products</span></h2>
+</div>
+
+<div class="row">
+            
+    <div class="course-col">
+        <img src="img/aromatalk.jpg">
+        <h2>Aromatalk</h2>
+        <p><i class='bx bx-heart' ></i></p>
+        <p2>Price  120฿ </p2>
+        <br>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="course-col">
+        <img src="img/background1.jpg">
+        <h2>BeAdevil</h2>
+        <p><i class='bx bx-heart' ></i></p>
+        <p2>Price  200฿ </p2>
+        <br>
+        <button class="add-to-cart1">Add to Cart</button>
+    </div>
+    <div class="course-col">
+        <img src="img/payya.jpg">
+        <h2>ป้ายยา</h2>
+        <p><i class='bx bx-heart' ></i></p>
+        <p2>Price  240฿ </p2>
+        <br>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="course-col">
+        <img src="img/concert.jpg">
+        <h2>Concert</h2>
+        <p><i class='bx bx-heart' ></i></p>
+        <p2>Price  300฿</p2>
+        <br>
+        <button class="add-to-cart1">Add to Cart</button>
+    </div>
+    <div class="course-col">
+        <img src="img/workbar.jpg">
+        <h2>Workbar</h2>
+        <p><i class='bx bx-heart' ></i></p>
+        <p2>Price  490 ฿</p2>
+        <br>
+        <button class="add-to-cart1">Add to Cart</button>
+    </div>
+    <div class="course-col">
+        <img src="img/golfmike.jpg">
+        <h2>Golf Mike</h2>
+        <p><i class='bx bx-heart' ></i></p>
+        <p2>Price  500 ฿</p2>
+        <br>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+     </section>
+
+
+        
+        
+        
+    </div>
+</section>
+<section class="footer">
+    <a href="about.html" class="hero-btn red-btn">About Us</a>
+    <p>BeAdevil Office Hope to see you work with us Thankyou</p>
+    <div class="icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-line"></i>
+    <i class="fa-brands fa-tiktok"></i>
+</div>
+<p>BeAdevil<i class="fa-regular fa-heart"></i> Thankyou</p>
+</section>
+
+
+
+<script src="java.js"></script>
+
 
 
 </body>
